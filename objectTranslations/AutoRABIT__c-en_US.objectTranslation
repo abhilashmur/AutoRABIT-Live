@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AutoRABIT Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AutoRABIT Cases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Ci Job</masterLabel>
+            <translation><!-- Ci Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Loader</masterLabel>
+            <translation><!-- Data Loader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployments</masterLabel>
+            <translation><!-- Deployments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EZ-Commits</masterLabel>
+            <translation><!-- EZ-Commits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Editor</masterLabel>
+            <translation><!-- Merge Editor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile Manager</masterLabel>
+            <translation><!-- Profile Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SyncSFOrgs</masterLabel>
+            <translation><!-- SyncSFOrgs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>AutoRABIT Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
