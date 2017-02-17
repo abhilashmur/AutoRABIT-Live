@@ -11,4 +11,5 @@
     <tab>standard-Dashboard</tab>
     <tab>standard-Questions</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

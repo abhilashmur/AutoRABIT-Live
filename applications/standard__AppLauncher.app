@@ -3,4 +3,5 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-AppLauncher</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

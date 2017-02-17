@@ -174,7 +174,11 @@
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>AR_Slalom__c</tab>
+        </mapping>
         <mapping>
             <tab>Opportunity_Attachments__c</tab>
         </mapping>

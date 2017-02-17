@@ -19,4 +19,5 @@
     <tab>standard-Case</tab>
     <tab>standard-News</tab>
     <tab>standard-ForecastingLightning</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

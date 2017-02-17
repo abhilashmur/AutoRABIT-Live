@@ -7,4 +7,5 @@
     <tab>Child__c</tab>
     <tab>Parent_Info__c</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

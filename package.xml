@@ -3,6 +3,8 @@
     <types>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>CreateAccount</members>
+        <members>CreateAccountTest</members>
         <members>ForgotPasswordController</members>
         <members>ForgotPasswordControllerTest</members>
         <members>GSurveysController</members>
@@ -30,6 +32,8 @@
         <members>Utilities_Test</members>
         <members>ViewSurveyController</members>
         <members>ViewSurveyController_Test</members>
+        <members>apexclass1</members>
+        <members>apexclass2</members>
         <members>question</members>
         <members>question_Test</members>
         <members>viewShareSurveyComponentController</members>
@@ -122,7 +126,6 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__Insights</members>
         <members>standard__LightningSales</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
@@ -130,10 +133,12 @@
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
         <members>standard__Sites</members>
-        <members>standard__Work</members>
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>AR_Slalom__c.AR_custfield_Slalom__c</members>
+        <members>AR_Slalom__c.Testfield1__c</members>
+        <members>AR_Slalom__c.Testfield2__c</members>
         <members>AR_Test1__c.AR_Test_Picklist__c</members>
         <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
@@ -174,6 +179,7 @@
         <members>Childcare_From__c.State__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Demotest__c.Demotestfield__c</members>
         <members>Eclipse__c.Test__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.Called__c</members>
@@ -301,6 +307,7 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>AR_Slalom__c</members>
         <members>AR_Test1__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
@@ -323,6 +330,7 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
+        <members>Demotest__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>Eclipse2__c</members>
@@ -369,15 +377,18 @@
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
         <members>abhistest__c</members>
+        <members>workflow__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>AR_Slalom__c-en_US</members>
         <members>AR_Test1__c-en_US</members>
         <members>AutoRABIT__c-en_US</members>
         <members>Campsite_Reservation__c-en_US</members>
         <members>Campsite__c-en_US</members>
         <members>Child__c-en_US</members>
         <members>Childcare_From__c-en_US</members>
+        <members>Demotest__c-en_US</members>
         <members>Eclipse2__c-en_US</members>
         <members>Eclipse__c-en_US</members>
         <members>Expense__c-en_US</members>
@@ -393,6 +404,7 @@
         <members>Survey__c-en_US</members>
         <members>Vehicle__c-en_US</members>
         <members>abhistest__c-en_US</members>
+        <members>workflow__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -400,6 +412,7 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>AR_Slalom__c</members>
         <members>Account_App</members>
         <members>Child__c</members>
         <members>Childcare_From__c</members>
@@ -486,6 +499,7 @@
         <name>InstalledPackage</name>
     </types>
     <types>
+        <members>AR_Slalom__c-AR-Slalom Layout</members>
         <members>AR_Test1__c-AR-Test1 Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
@@ -513,6 +527,7 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
+        <members>Demotest__c-Demotest Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>Eclipse2__c-Eclipse2 Layout</members>
         <members>Eclipse__c-Eclipse Layout</members>
@@ -558,9 +573,11 @@
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>Vehicle__c-Vehicle Layout</members>
         <members>abhistest__c-abhistest Layout</members>
+        <members>workflow__c-workflow Layout</members>
         <name>Layout</name>
     </types>
     <types>
+        <members>AR_Slalom__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -642,10 +659,14 @@
     <types>
         <members>Account_Rating</members>
         <members>AutoRABIT_PS</members>
+        <members>Fast_Forms_Permissions</members>
         <members>Garage_Developer</members>
+        <members>NativeCloud_Permissions</members>
         <members>PS_for_Lightening</members>
         <members>Permission_set_for_Abhi</members>
         <members>Permission_set_for_Tom</members>
+        <members>Timba_Surveys_Administrator</members>
+        <members>Timba_Surveys_Internal_User</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -714,6 +735,7 @@
         <members>NewOpportunity</members>
         <members>NewTask</members>
         <members>New_Detailed_Account</members>
+        <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
         <members>Task.EditDescription</members>
@@ -828,6 +850,7 @@
         <name>SharingCriteriaRule</name>
     </types>
     <types>
+        <members>AR_Slalom__c</members>
         <members>AR_Test1__c</members>
         <members>Account</members>
         <members>Asset</members>
@@ -838,6 +861,7 @@
         <members>Child__c</members>
         <members>Childcare_From__c</members>
         <members>Contact</members>
+        <members>Demotest__c</members>
         <members>Eclipse2__c</members>
         <members>Eclipse__c</members>
         <members>Expense__c</members>
@@ -854,6 +878,7 @@
         <members>User</members>
         <members>Vehicle__c</members>
         <members>abhistest__c</members>
+        <members>workflow__c</members>
         <name>SharingRules</name>
     </types>
     <types>
@@ -882,6 +907,7 @@
         <name>WebLink</name>
     </types>
     <types>
+        <members>AR_Slalom__c</members>
         <members>AR_Test1__c</members>
         <members>Account</members>
         <members>Asset</members>
@@ -897,6 +923,7 @@
         <members>Contact</members>
         <members>Contract</members>
         <members>DandBCompany</members>
+        <members>Demotest__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>Eclipse2__c</members>
@@ -938,7 +965,12 @@
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
         <members>abhistest__c</members>
+        <members>workflow__c</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>workflow__c.Owner_notification</members>
+        <name>WorkflowAlert</name>
     </types>
     <types>
         <members>Account.Type_set_to_Pending</members>
@@ -953,6 +985,7 @@
         <members>Case.Case Escalate on High Priority</members>
         <members>Lead.Account Doc Layout</members>
         <members>Linkedin_Job_Form__c.WFR for Experience</members>
+        <members>workflow__c.Workflowtest</members>
         <name>WorkflowRule</name>
     </types>
     <types>
@@ -972,7 +1005,6 @@
         <members>Forecasting</members>
         <members>Ideas</members>
         <members>Knowledge</members>
-        <members>LeadConvert</members>
         <members>LiveAgent</members>
         <members>Mobile</members>
         <members>Name</members>

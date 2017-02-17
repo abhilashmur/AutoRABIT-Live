@@ -7,4 +7,5 @@
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

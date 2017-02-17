@@ -7,4 +7,5 @@
     <tab>SurveyTaker__c</tab>
     <tab>standard-report</tab>
     <tab>Survey_Question__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>

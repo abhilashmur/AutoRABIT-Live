@@ -6,4 +6,5 @@
     <tab>standard-Dashboard</tab>
     <tab>Linkedin_Job_Form__c</tab>
     <tab>Opportunity_Attachments__c</tab>
+    <tab>AR_Slalom__c</tab>
 </CustomApplication>
