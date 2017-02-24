@@ -247,6 +247,7 @@
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
         <members>UATTest1__c.UATTest1PIcklist__c</members>
+        <members>UATTest1__c.UATTest2__c</members>
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
         <name>CustomField</name>

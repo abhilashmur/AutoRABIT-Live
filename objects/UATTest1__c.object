@@ -71,6 +71,16 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>UATTest2__c</fullName>
+        <externalId>false</externalId>
+        <label>UATTest2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>UATTest1</label>
     <nameField>
         <label>UATTest1 Name</label>
