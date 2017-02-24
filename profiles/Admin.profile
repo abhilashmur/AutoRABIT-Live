@@ -1860,6 +1860,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>UATTest1__c.UATTest1PIcklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>User.DB_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2055,6 +2060,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>workflow__c-workflow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UATTest1__c-UATTest1 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -2405,6 +2413,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Survey__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>UATTest1__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
