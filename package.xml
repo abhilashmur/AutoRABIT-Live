@@ -261,6 +261,7 @@
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
         <members>Versionone1__c.Version1__c</members>
+        <members>Versionone2__c.Version__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -397,6 +398,7 @@
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
         <members>Versionone1__c</members>
+        <members>Versionone2__c</members>
         <members>abhistest__c</members>
         <members>workflow__c</members>
         <name>CustomObject</name>
@@ -608,6 +610,7 @@
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>Vehicle__c-Vehicle Layout</members>
         <members>Versionone1__c-Versionone1 Layout</members>
+        <members>Versionone2__c-Versionone2 Layout</members>
         <members>abhistest__c-abhistest Layout</members>
         <members>workflow__c-workflow Layout</members>
         <name>Layout</name>

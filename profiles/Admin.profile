@@ -1928,6 +1928,11 @@
         <field>User.Team_Leader__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Versionone2__c.Version__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AR_Slalom__c-AR-Slalom Layout</layout>
     </layoutAssignments>
@@ -2117,6 +2122,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UAT2__c-UAT2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Versionone2__c-Versionone2 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -2512,6 +2520,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Vehicle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Versionone2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
