@@ -8,4 +8,7 @@
     <tab>Parent_Info__c</tab>
     <tab>Opportunity_Attachments__c</tab>
     <tab>AR_Slalom__c</tab>
+    <tab>Eclipse2__c</tab>
+    <tab>UAT2__c</tab>
+    <tab>UAT1__c</tab>
 </CustomApplication>
