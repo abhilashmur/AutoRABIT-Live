@@ -123,6 +123,7 @@
     <types>
         <members>LinkedIn_App</members>
         <members>Murali_s_Childcare</members>
+        <members>Murali_s_Childcare_Lightning</members>
         <members>Survey_Force</members>
         <members>TestApp</members>
         <members>standard__AppLauncher</members>
@@ -147,9 +148,13 @@
         <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
+        <members>Account.Parent__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.UAT1__c</members>
+        <members>Account.UAT2__c</members>
+        <members>Account.UATTest2__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Activity.DB_Activity_Type__c</members>
         <members>AutoRABIT__c.Case_Type__c</members>
@@ -183,6 +188,8 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Demotest__c.Demotestfield__c</members>
+        <members>Eclipse2__c.Test1__c</members>
+        <members>Eclipse2__c.Testpicklist__c</members>
         <members>Eclipse__c.Test__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.Called__c</members>
@@ -247,6 +254,8 @@
         <members>Survey__c.URL__c</members>
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
+        <members>UAT1__c.CircularAccount1__c</members>
+        <members>UAT2__c.CircularAccount2__c</members>
         <members>UATTest1__c.UATTest1PIcklist__c</members>
         <members>UATTest1__c.UATTest2__c</members>
         <members>User.DB_Region__c</members>
@@ -380,6 +389,9 @@
         <members>Survey_Question__c</members>
         <members>Survey__c</members>
         <members>Task</members>
+        <members>Tets__c</members>
+        <members>UAT1__c</members>
+        <members>UAT2__c</members>
         <members>UATTest1__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
@@ -425,6 +437,7 @@
         <members>Account_App</members>
         <members>Child__c</members>
         <members>Childcare_From__c</members>
+        <members>Eclipse2__c</members>
         <members>Getting_Started_With_Survey_Force</members>
         <members>Linkedin_Job_Form__c</members>
         <members>Opportunity_Attachments__c</members>
@@ -432,6 +445,10 @@
         <members>SurveyTaker__c</members>
         <members>Survey_Question__c</members>
         <members>Survey__c</members>
+        <members>TestApp2</members>
+        <members>Tets__c</members>
+        <members>UAT1__c</members>
+        <members>UAT2__c</members>
         <members>Vehicle__c</members>
         <name>CustomTab</name>
     </types>
@@ -476,6 +493,9 @@
     </types>
     <types>
         <members>AccountApp</members>
+        <members>Murali_s_Childcare_Lightning_UtilityBar</members>
+        <members>TestApp2</members>
+        <members>TestApp_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -503,6 +523,7 @@
         <members>TIMBASURVEYS</members>
         <members>VisualAntidote</members>
         <members>gcomp</members>
+        <members>kkltng</members>
         <members>loli_oppwall</members>
         <members>sf_chttr_apps</members>
         <name>InstalledPackage</name>
@@ -576,6 +597,9 @@
         <members>Survey_Question__c-Survey Question Layout</members>
         <members>Survey__c-Survey Layout</members>
         <members>Task-Task Layout</members>
+        <members>Tets__c-Tet Layout</members>
+        <members>UAT1__c-UAT1 Layout</members>
+        <members>UAT2__c-UAT2 Layout</members>
         <members>UATTest1__c-UATTest1 Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
@@ -621,6 +645,7 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Eclipse2__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -647,6 +672,9 @@
         <members>SurveyTaker__c.All</members>
         <members>Survey_Question__c.All</members>
         <members>Survey__c.standard_view</members>
+        <members>Tets__c.All</members>
+        <members>UAT1__c.All</members>
+        <members>UAT2__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>

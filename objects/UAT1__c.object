@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -56,52 +52,28 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Test1__c</fullName>
+        <fullName>CircularAccount1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Test1</label>
-        <length>40</length>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>UAT1s</relationshipLabel>
+        <relationshipName>UAT1s</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Testpicklist__c</fullName>
-        <externalId>false</externalId>
-        <label>Testpicklist</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Value 1</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value 1</label>
-                </value>
-                <value>
-                    <fullName>Value 2</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value 2</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>Eclipse2</label>
+    <label>UAT1</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Eclipse2 Name</label>
+        <label>UAT1 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Eclipse2s</pluralLabel>
+    <pluralLabel>UAT1s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
