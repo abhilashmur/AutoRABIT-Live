@@ -256,6 +256,7 @@
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
         <members>Testobject1__c.test1__c</members>
+        <members>UAT1__c.Uattest1__c</members>
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
         <members>Western__c.implementation__c</members>
