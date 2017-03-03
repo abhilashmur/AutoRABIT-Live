@@ -255,6 +255,7 @@
         <members>Survey__c.URL__c</members>
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
+        <members>Testobject1__c.test1__c</members>
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
         <members>Western__c.implementation__c</members>
@@ -386,6 +387,7 @@
         <members>Survey__c</members>
         <members>Task</members>
         <members>Test__c</members>
+        <members>Testobject1__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
@@ -583,6 +585,7 @@
         <members>Survey__c-Survey Layout</members>
         <members>Task-Task Layout</members>
         <members>Test__c-Test Layout</members>
+        <members>Testobject1__c-Testobject1 Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
