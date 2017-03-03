@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
     <types>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
@@ -22,6 +23,7 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>StringArrayTest</members>
         <members>SurveyAndQuestionController</members>
         <members>SurveyAndQuestionController_Test</members>
         <members>SurveyManagerController</members>
@@ -127,6 +129,8 @@
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -137,6 +141,7 @@
     </types>
     <types>
         <members>AR_Slalom__c.AR_custfield_Slalom__c</members>
+        <members>AR_Slalom__c.AutorabitExtId__c</members>
         <members>AR_Slalom__c.Testfield1__c</members>
         <members>AR_Slalom__c.Testfield2__c</members>
         <members>AR_Test1__c.AR_Test_Picklist__c</members>
@@ -159,6 +164,7 @@
         <members>Campsite_Reservation__c.Start_Date__c</members>
         <members>Campsite_Reservation__c.User__c</members>
         <members>Campsite__c.Description__c</members>
+        <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
@@ -180,6 +186,9 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Demotest__c.Demotestfield__c</members>
+        <members>Eclipse2__c.AutorabitExtId__c</members>
+        <members>Eclipse2__c.Test1__c</members>
+        <members>Eclipse2__c.Testpicklist__c</members>
         <members>Eclipse__c.Test__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.Called__c</members>
@@ -211,6 +220,8 @@
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DB_Competitor__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Implementation_Complete__c</members>
+        <members>Opportunity.Implementation_incomplete__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
@@ -246,6 +257,7 @@
         <members>Survey__c.thankYouText__c</members>
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
+        <members>Western__c.implementation__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -373,9 +385,11 @@
         <members>Survey_Question__c</members>
         <members>Survey__c</members>
         <members>Task</members>
+        <members>Test__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
+        <members>Western__c</members>
         <members>abhistest__c</members>
         <members>workflow__c</members>
         <name>CustomObject</name>
@@ -467,6 +481,8 @@
     </types>
     <types>
         <members>AccountApp</members>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -566,12 +582,14 @@
         <members>Survey_Question__c-Survey Question Layout</members>
         <members>Survey__c-Survey Layout</members>
         <members>Task-Task Layout</members>
+        <members>Test__c-Test Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>Vehicle__c-Vehicle Layout</members>
+        <members>Western__c-Western Layout</members>
         <members>abhistest__c-abhistest Layout</members>
         <members>workflow__c-workflow Layout</members>
         <name>Layout</name>
@@ -846,6 +864,33 @@
         <name>Role</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>ChatterAnswers</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <types>
         <members>Project__c.ProjectSR</members>
         <name>SharingCriteriaRule</name>
     </types>
@@ -992,32 +1037,4 @@
         <members>Case.Follow_Up_on_Escalated_Case</members>
         <name>WorkflowTask</name>
     </types>
-    <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>ChatterAnswers</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>PersonalJourney</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <version>37.0</version>
 </Package>
