@@ -152,6 +152,8 @@
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.UAT1__c</members>
+        <members>Account.UAT2__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Activity.DB_Activity_Type__c</members>
         <members>AutoRABIT__c.Case_Type__c</members>
@@ -256,7 +258,9 @@
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
         <members>Testobject1__c.test1__c</members>
+        <members>UAT1__c.CircularAccount1__c</members>
         <members>UAT1__c.Uattest1__c</members>
+        <members>UAT2__c.CiruclarAccount2__c</members>
         <members>User.DB_Region__c</members>
         <members>User.Team_Leader__c</members>
         <members>Western__c.implementation__c</members>
@@ -389,6 +393,8 @@
         <members>Task</members>
         <members>Test__c</members>
         <members>Testobject1__c</members>
+        <members>UAT1__c</members>
+        <members>UAT2__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>Vehicle__c</members>
@@ -587,6 +593,8 @@
         <members>Task-Task Layout</members>
         <members>Test__c-Test Layout</members>
         <members>Testobject1__c-Testobject1 Layout</members>
+        <members>UAT1__c-UAT1 Layout</members>
+        <members>UAT2__c-UAT2 Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>

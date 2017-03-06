@@ -52,33 +52,23 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>CircularAccount1__c</fullName>
+        <fullName>CiruclarAccount2__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Account</label>
         <referenceTo>Account</referenceTo>
-        <relationshipLabel>UAT1s</relationshipLabel>
-        <relationshipName>UAT1s</relationshipName>
+        <relationshipLabel>UAT2s</relationshipLabel>
+        <relationshipName>UAT2s</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Uattest1__c</fullName>
-        <externalId>false</externalId>
-        <label>Uattest1</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>UAT1</label>
+    <label>UAT2</label>
     <nameField>
-        <label>UAT1 Name</label>
+        <label>UAT2 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>UAT1s</pluralLabel>
+    <pluralLabel>UAT2s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
