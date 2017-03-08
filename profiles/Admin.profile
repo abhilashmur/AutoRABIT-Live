@@ -1929,6 +1929,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Trimble__c.Trimblepicklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>UAT1__c.AutorabitExtId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2172,6 +2177,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Optum1__c-Optum1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trimble__c-Trimble Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -2549,6 +2557,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Testobject1__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Trimble__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

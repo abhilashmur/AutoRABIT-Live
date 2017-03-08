@@ -259,6 +259,7 @@
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
         <members>Testobject1__c.test1__c</members>
+        <members>Trimble__c.Trimblepicklist__c</members>
         <members>UAT1__c.AutorabitExtId__c</members>
         <members>UAT1__c.CircularAccount1__c</members>
         <members>UAT1__c.Uattest1__c</members>
@@ -397,6 +398,7 @@
         <members>Task</members>
         <members>Test__c</members>
         <members>Testobject1__c</members>
+        <members>Trimble__c</members>
         <members>UAT1__c</members>
         <members>UAT2__c</members>
         <members>User</members>
@@ -598,6 +600,7 @@
         <members>Task-Task Layout</members>
         <members>Test__c-Test Layout</members>
         <members>Testobject1__c-Testobject1 Layout</members>
+        <members>Trimble__c-Trimble Layout</members>
         <members>UAT1__c-UAT1 Layout</members>
         <members>UAT2__c-UAT2 Layout</members>
         <members>User-User Layout</members>
