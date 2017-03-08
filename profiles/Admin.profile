@@ -1929,6 +1929,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>UAT1__c.AutorabitExtId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>UAT1__c.CircularAccount1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1936,6 +1941,11 @@
         <editable>false</editable>
         <field>UAT1__c.Uattest1__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>UAT2__c.AutorabitExtId__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
